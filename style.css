@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input-wrapper input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.input-wrapper button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+li span {
+    flex: 1;
+}
+
+li button {
+    padding: 5px;
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+li.completed {
+    background-color: #d4edda;
+    color: #155724;
+    text-decoration: line-through;
+  }
+  
+  li.completed button {
+    background-color: #dc3545;
+  }
+
+  /* ...existing styles... */
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  #markAllCompletedBtn {
+    margin-right: 10px;
+  }
+  
+
+  
